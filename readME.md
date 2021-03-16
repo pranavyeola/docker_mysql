@@ -8,15 +8,15 @@ instruction to create image of give name.
 shell script to run required command.
 
 
-#How to use?
+# Execution commands
 
 ## Build Image:
 `docker build -t my_mysql .`
-1 build : to build an image
-2 -t : option to provide tagname
-3 . : path(current directory)
+1. build : to build an image
+2. -t : option to provide tagname
+3. . : path(current directory)
 
-Note: Make sure your in same directory where dockerfile is placed.
+Note: Make sure you are in same directory where dockerfile is placed.
 
 ## Run Image:
 `docker run -it -d -p 3445:4000 my_mysql`
@@ -30,12 +30,11 @@ Note: Collect the container id of my_mysql for further use.
 `docker exec -it [Container_id] bash`
 
 ## Run mysql service:
-`# service mysql start`
-`# mysql`
-`mysql> use pucsdStudents`
-`mysql> select * from studentData`
-readME.md
-Displaying readME.md.
+- `# service mysql start`
+- `# mysql`
+- `mysql> use pucsdStudents`
+- `mysql> select * from studentData`
+
 
 ===================================
 
