@@ -36,7 +36,13 @@ Note: Collect the container id of my_mysql for further use.
 - `mysql> select * from studentData`
 
 
-===================================
+=============================
+## Docker Compose
+# docker-compose up -d 
+ ### docker-compose up --detach starts the containers in the background and leaves them running.
+# docker-compose down
+ ### to stop the containers
+
 
 
 
